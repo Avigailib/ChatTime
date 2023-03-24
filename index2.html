@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatTime</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body id="body" background="fondo.jpg">
+    <center>
+        <p></p>
+        <button id="salir" onclick="salir()">Salir</button>
+        <h1 id="ct">ChatTime</h1>
+        <p></p>
+        <section id="sh">
+            <p></p>
+            <img src="chat time.jpg" id="img2">
+            <h2 id="bienvenido">Bienvenid@ usuario</h2>
+            <h3>Puedes ingresar a una sala que ya existe o crear una nueva</h3>
+            <input type="text" id="input"placeholder ="Escriba el nombre de su sala">
+            <p></p>
+            <button id="agregar" onclick="agregar()">Agregar sala</button>
+            <p></p>
+            </section>
+            <p></p>
+            <h4>Salas existentes</h4>
+            <div id="div"></div>
+    </center>
+    <script src="main2.js"></script>
+</body>
+</html>

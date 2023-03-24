@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatTime</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body id="body" background="fondo.jpg">
+    <center>
+        <p></p>
+        <button id="salir" onclick="salir()">Salir</button>
+        <h1 id="ct">ChatTime</h1>
+        <p></p>
+        <section id="sh">
+            <p></p>
+            <img src="chat time.jpg" id="img2">
+            <p></p>
+            <h3 id="ns">Nombre de la sala</h3>
+            <h3 id="mds">Mensajes de la sala</h3>
+            <p></p>
+            <h2>Envie y publique un mensaje en la sala</h2>
+            <p></p>
+            <input type="text" id="mensaje" placeholder="Escriba su mensaje">
+            <p></p>
+            <button id="Enviar2" onclick="enviar()">Enviar mensaje</button>
+            <p></p>
+        </section>
+    </center>
+    <script src="main3.js"></script>
+</body>
+</html>

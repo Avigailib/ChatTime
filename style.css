@@ -1,0 +1,48 @@
+#ct{
+    font-family: 'Sacramento', cursive;
+    font-size:80px;
+}
+#img1{
+    width: 50px;
+    margin-top: 1px;
+}
+#img2{
+    width: 123px;
+    border-radius: 25px;
+}
+#chatear{
+    font-family: 'Shadows Into Light', cursive;
+}
+#ingreso{
+    width:180px;
+    text-align: center;
+}
+#unete{
+    font-family: 'Abril Fatface', cursive;
+}
+#iniciar{
+    background-color: rgb(80, 119, 247);
+    padding: 12px;
+    border-radius: 12px;
+}
+#sh{
+    border-color: rgb(140, 149, 246);
+    border-width: 6px;
+    border-style: dashed;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#salir{
+    background-color: rgb(80, 119, 247);
+    padding: 12px;
+    border-radius: 12px;
+}
+#input{
+    width: 175px;
+    text-align: center;
+}
+#agregar{
+    background-color: rgb(80, 119, 247);
+    padding: 12px;
+    border-radius: 12px;
+}
